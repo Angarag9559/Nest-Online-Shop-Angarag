@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "iPhone 15 Pro",
+    "price": 1299,
+    "image": "image/iphone15pro.png",
+    "description": "iPhone 15 Pro нь титанаар хийгдсэн хийцтэй, гайхалтай хурдтай A17 Pro чип болон ProMotion технологитой Super Retina XDR дэлгэцээр тоноглогдсон. Хүчирхэг ажиллагаа ба тансаг загварыг хүсэгчдэд зориулагдсан."
+  },
+  {
+    "id": "2",
+    "name": "Samsung Galaxy S24 Ultra",
+    "price": 1199,
+    "image": "image/galaxys24ultra.jpg",
+    "description": "Samsung Galaxy S24 Ultra нь 200MP камер, хэт тод QHD+ AMOLED дэлгэц болон Snapdragon 8 Gen 3 процессортой. Зургийн чанар болон олон даалгаврыг зэрэг гүйцэтгэхэд хамгийн тохиромжтой."
+  },
+  {
+    "id": "3",
+    "name": "Google Pixel 8 Pro",
+    "price": 999,
+    "image": "image/pixel8pro.jpg",
+    "description": "Google-ийн Tensor G3 чипээр ажилладаг Pixel 8 Pro нь ухаалаг AI боломж, гайхалтай зураглал болон 7 жилийн шинэчлэлтийг санал болгодог. Ухаалаг ажиллагаа ба энгийн байдлыг хослуулсан."
+  },
+  {
+    "id": "4",
+    "name": "OnePlus 12",
+    "price": 899,
+    "image": "image/oneplus12.png",
+    "description": "OnePlus 12 нь Snapdragon 8 Gen 3 процессор, 120Hz AMOLED дэлгэц болон маш хурдан цэнэглэлтийн тусламжтайгаар хурд ба тансаг загварыг нэгтгэсэн."
+  },
+  {
+    "id": "5",
+    "name": "Xiaomi 14 Pro",
+    "price": 849,
+    "image": "image/xiaomi14pro.png",
+    "description": "Xiaomi 14 Pro нь Leica линз, Snapdragon 8 Gen 3 чипээр тоноглогдсон бөгөөд мэргэжлийн түвшний зураг авалт болон өндөр гүйцэтгэлийг орчин үеийн загварт санал болгодог."
+  },
+  {
+    "id": "6",
+    "name": "Sony Xperia 1 V",
+    "price": 1099,
+    "image": "image/xperia1v.jpg",
+    "description": "4K HDR OLED дэлгэц болон Sony Alpha камерын дэвшилтэт технологитой Xperia 1 V нь явуулын контент бүтээгчдэд киноны чанартай бичлэг хийхэд тохиромжтой."
+  },
+  {
+    "id": "7",
+    "name": "ASUS ROG Phone 8 Pro",
+    "price": 1199,
+    "image": "image/rogphone8pro.jpg",
+    "description": "165Hz AMOLED дэлгэц, Snapdragon 8 Gen 3 болон дэвшилтэт хөргөлтийн системтэй ROG Phone 8 Pro нь тоглоомчдод зориулсан хүчирхэг төхөөрөмж юм."
+  },
+  {
+    "id": "8",
+    "name": "Nothing Phone (2)",
+    "price": 749,
+    "image": "image/nothingphone2.jpg",
+    "description": "Минималист дизайн ба ухаалаг ажиллагааг хослуулсан. Nothing Phone (2) нь өвөрмөц Glyph гэрэл, цэвэрхэн UI болон хүчирхэг ажиллагааг боломжийн үнээр санал болгодог."
+  }
+]
