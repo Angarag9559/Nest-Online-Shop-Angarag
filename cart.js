@@ -1,26 +1,21 @@
-// --- CART STATE ---
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-// Save cart to localStorage
 function saveCart() {
   localStorage.setItem("cart", JSON.stringify(cart));
 }
 
-// Add product to cart
 function addToCart(product) {
   cart.push(product);
   saveCart();
   updateCartUI();
 }
 
-// Remove product by index
 function removeFromCart(index) {
   cart.splice(index, 1);
   saveCart();
   updateCartUI();
 }
 
-// Update cart UI (for index.html & checkout.html)
 function updateCartUI() {
   const cartCount = document.getElementById("cart-count");
   const cartItems = document.getElementById("cart-items");
@@ -29,7 +24,7 @@ function updateCartUI() {
     cartCount.textContent = cart.length;
   }
 
-  if (!cartItems) return; // if no cart section on page
+  if (!cartItems) return;
 
   if (cart.length === 0) {
     cartItems.innerHTML = '<p class="text-gray-600">Таны Сагс хоосон байна.</p>';
@@ -62,7 +57,6 @@ function updateCartUI() {
   cartItems.innerHTML = html;
 }
 
-// Expose globally so HTML buttons can call them
 window.addToCart = addToCart;
 window.removeFromCart = removeFromCart;
 window.updateCartUI = updateCartUI;

@@ -10,7 +10,6 @@
 </head>
 <body class="bg-gray-100 min-h-screen flex flex-col">
 
-  <!-- Header -->
   <header class="bg-blue-600 text-white py-6 shadow-lg flex items-center sticky top-0 z-50 px-6">
     <button onclick="window.location.href='index.html'" 
             class="text-white text-lg hover:underline focus:outline-none absolute left-6">
@@ -20,25 +19,20 @@
     <h1 class="text-3xl font-bold tracking-wide mx-auto">Бүтээгдэхүүний дэлгэрэнгүй</h1>
   </header>
 
-  <!-- Main Content -->
   <main class="container mx-auto px-4 py-10 md:py-16 flex flex-col lg:flex-row gap-8 lg:gap-12">
 
-    <!-- Product Image -->
     <div class="w-full lg:w-1/2 bg-white rounded-2xl shadow-xl overflow-hidden p-6 flex justify-center items-center">
       <img id="productImg" src="" alt="Product" 
            class="w-3/4 sm:w-2/3 md:w-full h-96 sm:h-[28rem] md:h-[32rem] object-contain rounded-xl bg-gray-50 p-2 shadow-md">
     </div>
 
-    <!-- Product Details -->
     <div class="w-full lg:w-1/2 bg-white rounded-2xl shadow-xl p-8 flex flex-col justify-start min-h-[28rem]">
-      
-      <!-- Title + Description (Left Aligned) -->
+
       <div class="mb-6">
         <h1 id="productName" class="text-3xl font-bold text-gray-900 mb-4"></h1>
         <p id="productDescription" class="text-gray-700 text-lg leading-relaxed"></p>
       </div>
 
-      <!-- Price + Button -->
       <div class="mt-auto">
         <p id="productPrice" class="text-2xl font-semibold text-blue-600 mb-6"></p>
         <button id="addCartBtn"
@@ -49,7 +43,6 @@
     </div>
   </main>
 
-  <!-- Scripts -->
   <script src="cart.js"></script>
   <script>
     const urlParams = new URLSearchParams(window.location.search);
